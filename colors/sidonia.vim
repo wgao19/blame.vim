@@ -69,6 +69,7 @@ highlight! CursorColumn           guifg=NONE     guibg=#333942  gui=NONE       c
 highlight! LineNr                 guifg=#5c6573  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
 highlight! Underlined             guifg=#9966B8  guibg=NONE     gui=NONE       ctermfg=5     ctermbg=NONE  cterm=NONE
 highlight! TabLineFill            guifg=#5c6573  guibg=NONE     gui=underline  ctermfg=8     ctermbg=NONE  cterm=underline
+highlight! TabLine                guifg=#333942  guibg=#5c6573  gui=NONE       ctermfg=0     ctermbg=8     cterm=NONE
 highlight! SpecialComment         guifg=#5c6573  guibg=NONE     gui=reverse    ctermfg=8     ctermbg=NONE  cterm=reverse
 highlight! Todo                   guifg=#D8FD60  guibg=NONE     gui=reverse    ctermfg=3     ctermbg=NONE  cterm=reverse
 highlight! Search                 guifg=#26A6A6  guibg=NONE     gui=reverse    ctermfg=2     ctermbg=NONE  cterm=reverse
@@ -84,7 +85,6 @@ highlight! link ModeMsg           Visual
 highlight! link PmenuThumb        PmenuSbar
 highlight! link CursorLineNr      StatusLine             
 highlight! link StatusLineNC      SpecialComment
-highlight! link TabLine           SpecialComment
 highlight! link PmenuSel          StatusLine 
 highlight! link Pmenu             StatusLineNC
 highlight! link Folded            LineNr
