@@ -54,4 +54,4 @@ Despacio
 [![despacioScreenshot](https://cloud.githubusercontent.com/assets/11221489/22007809/84b69ffe-dc2a-11e6-9f6a-e63003c62faf.png)](https://github.com/AlessandroYorba/Despacio)
 
 Monrovia
-[![monroviaScreenshot](https://cloud.githubusercontent.com/assets/11221489/22249780/30b1f2ee-e1f9-11e6-837c-08362dc089aa.png)](https://github.com/AlessandroYorba/Monrovia)
+[![monroviaScreenshot](https://cloud.githubusercontent.com/assets/11221489/22258728/99dee2f4-e217-11e6-8380-206e5a5df58a.png)](https://github.com/AlessandroYorba/Monrovia)
