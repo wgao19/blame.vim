@@ -106,6 +106,7 @@ highlight! link htmlEndTag        Function
 highlight! link Number            PreProc
 highlight! link Title             PreProc
 highlight! link FoldColumn        PreProc
+highlight! link phpVarSelector      PreProc
 highlight! link StorageClass      Normal
 highlight! link DiffText          DiffAdd
 highlight! link Question          SpecialKey
