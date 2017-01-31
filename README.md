@@ -45,7 +45,7 @@ Download the .zip and copy `sidonia.vim` to `~/.vim/colors` (on Windows `<your-v
 Feedback, issues or suggestions?. Open an Issue [Sidonia Issues](https://github.com/AlessandroYorba/Sidonia/issues)! Also, if you like Sidonia you might want to check out some of the other Vim themes that I'm working on:
 
 Alduin
-[![alduinScreenshot](https://cloud.githubusercontent.com/assets/11221489/22007799/785fbee8-dc2a-11e6-9d7d-6708162ae15b.png)](https://github.com/AlessandroYorba/Alduin)
+[![alduinScreenshot](https://cloud.githubusercontent.com/assets/11221489/22487832/d88b4824-e7c3-11e6-9738-64e60e023181.png)](https://github.com/AlessandroYorba/Alduin)
 
 Sierra
 [![sierraScreenshot](https://cloud.githubusercontent.com/assets/11221489/22007803/7e02915e-dc2a-11e6-8cb5-7dc39ecf092f.png)](https://github.com/AlessandroYorba/Sierra)
