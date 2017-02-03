@@ -79,6 +79,7 @@ highlight! DiffChange             guifg=#9966B8  guibg=NONE     gui=reverse    c
 highlight! SpellBad               guifg=#E7424C  guibg=NONE     gui=undercurl  ctermfg=1     ctermbg=NONE  cterm=undercurl
 highlight! SpellLocal             guifg=#9966B8  guibg=NONE     gui=undercurl  ctermfg=8     ctermbg=NONE  cterm=undercurl
 highlight! SpellCap               guifg=#c7f464  guibg=NONE     gui=undercurl  ctermfg=3     ctermbg=NONE  cterm=undercurl
+highlight! VertSplit              guifg=#5c6573  guibg=#2f343c  gui=NONE       ctermfg=8     ctermbg=14    cterm=NONE
 
 highlight! link WildMenu          Visual
 highlight! link ModeMsg           Visual
@@ -106,12 +107,11 @@ highlight! link htmlEndTag        Function
 highlight! link Number            PreProc
 highlight! link Title             PreProc
 highlight! link FoldColumn        PreProc
-highlight! link phpVarSelector      PreProc
+highlight! link phpVarSelector    PreProc
 highlight! link StorageClass      Normal
 highlight! link DiffText          DiffAdd
 highlight! link Question          SpecialKey
 highlight! link markdownUrl       Underlined
 highlight! link SpellRare         SpellLocal
 highlight! link NonText           Comment
-highlight! link VertSplit         Comment
 highlight! link VimCommentTitle   SpecialComment
