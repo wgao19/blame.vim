@@ -24,10 +24,10 @@
 "---------------------------------------|-----------------------------------------
 "     Black        #2a3138      0       |      brBlack      #5c6573      8       |
 "     Red          #E7424C      1       |      brRed        #E7424C      9       |
-"     Green        #26a6a6      2       |      brGreen      #26a6a6      10      |
+"     Green        #00aabf      2       |      brGreen      #00aabf      10      |
 "     Yellow       #c7f464      3       |      brYellow     #c7f464      11      |
 "     Blue         #a2afc1      4       |      brBlue       #a2afc1      12      |
-"     Magenta      #9966b8      5       |      brMagenta    #9966b8      13      |
+"     Magenta      #975a81      5       |      brMagenta    #f47863      13      |
 "     Cyan         #247dae      6       |      brCyan       #2f343c      14      |
 "     White        #e4edfa      7       |      brWhite      #e4edfa      15      |
 "---------------------------------------|-----------------------------------------
@@ -59,7 +59,7 @@ highlight! StatusLine             guifg=#e4edfa  guibg=#5c6573  gui=NONE       c
 highlight! StatusLineNC           guifg=#2a3138  guibg=#5c6573  gui=NONE       ctermfg=0     ctermbg=8     cterm=NONE
 highlight! MatchParen             guifg=#e4edfa  guibg=#E7424C  gui=NONE       ctermfg=7     ctermbg=9     cterm=NONE
 highlight! PmenuSbar              guifg=NONE     guibg=NONE     gui=NONE       ctermfg=NONE  ctermbg=NONE  cterm=NONE
-highlight! String                 guifg=#26A6A6  guibg=NONE     gui=NONE       ctermfg=2     ctermbg=NONE  cterm=NONE
+highlight! String                 guifg=#00aabf  guibg=NONE     gui=NONE       ctermfg=2     ctermbg=NONE  cterm=NONE
 highlight! PreProc                guifg=#E7424C  guibg=NONE     gui=NONE       ctermfg=9     ctermbg=NONE  cterm=NONE
 highlight! Comment                guifg=#5c6573  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
 highlight! Function               guifg=#a2afc1  guibg=NONE     gui=NONE       ctermfg=4     ctermbg=NONE  cterm=NONE
@@ -67,12 +67,12 @@ highlight! SpecialKey             guifg=#c7f464  guibg=NONE     gui=NONE       c
 highlight! CursorLine             guifg=NONE     guibg=#2f343c  gui=NONE       ctermfg=NONE  ctermbg=14    cterm=NONE
 highlight! CursorColumn           guifg=NONE     guibg=#2a3138  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
 highlight! LineNr                 guifg=#5c6573  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
-highlight! Underlined             guifg=#9966B8  guibg=NONE     gui=NONE       ctermfg=5     ctermbg=NONE  cterm=NONE
+highlight! Underlined             guifg=#975a81  guibg=NONE     gui=NONE       ctermfg=5     ctermbg=NONE  cterm=NONE
 highlight! TabLineFill            guifg=#5c6573  guibg=NONE     gui=underline  ctermfg=8     ctermbg=NONE  cterm=underline
 highlight! TabLine                guifg=#2a3138  guibg=#5c6573  gui=NONE       ctermfg=0     ctermbg=8     cterm=NONE
 highlight! SpecialComment         guifg=#5c6573  guibg=NONE     gui=reverse    ctermfg=8     ctermbg=NONE  cterm=reverse
 highlight! Todo                   guifg=#c7f464  guibg=NONE     gui=reverse    ctermfg=3     ctermbg=NONE  cterm=reverse
-highlight! Search                 guifg=#26A6A6  guibg=NONE     gui=reverse    ctermfg=2     ctermbg=NONE  cterm=reverse
+highlight! Search                 guifg=#00aabf  guibg=NONE     gui=reverse    ctermfg=2     ctermbg=NONE  cterm=reverse
 highlight! Error                  guifg=#E7424C  guibg=NONE     gui=reverse    ctermfg=1     ctermbg=NONE  cterm=reverse
 highlight! DiffAdd                guifg=#e4edfa  guibg=NONE     gui=reverse    ctermfg=7     ctermbg=NONE  cterm=reverse
 highlight! DiffChange             guifg=#9966B8  guibg=NONE     gui=reverse    ctermfg=5     ctermbg=NONE  cterm=reverse
