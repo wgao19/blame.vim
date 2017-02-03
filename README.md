@@ -1,7 +1,7 @@
 Sidonia
 ------
 ###### Sidonia < = >
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/22399051/0d510224-e549-11e6-9b1e-cdf0921091d0.png)
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/22609999/3c668a38-ea18-11e6-9fd2-60b657300ba4.png)
 
 :rocket: Setup 
 ---------------
