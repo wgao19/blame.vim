@@ -51,7 +51,7 @@ Sierra
 [![sierraScreenshot](https://cloud.githubusercontent.com/assets/11221489/22007803/7e02915e-dc2a-11e6-8cb5-7dc39ecf092f.png)](https://github.com/AlessandroYorba/Sierra)
 
 Despacio
-[![despacioScreenshot](https://cloud.githubusercontent.com/assets/11221489/22007809/84b69ffe-dc2a-11e6-9f6a-e63003c62faf.png)](https://github.com/AlessandroYorba/Despacio)
+[![despacioScreenshot](https://cloud.githubusercontent.com/assets/11221489/22621903/6ba58f6c-eae3-11e6-8f2e-10cb7631364b.png)](https://github.com/AlessandroYorba/Despacio)
 
 Monrovia
 [![monroviaScreenshot](https://cloud.githubusercontent.com/assets/11221489/22258728/99dee2f4-e217-11e6-8380-206e5a5df58a.png)](https://github.com/AlessandroYorba/Monrovia)
