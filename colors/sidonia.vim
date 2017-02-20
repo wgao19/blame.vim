@@ -8,19 +8,24 @@
 "    \|_________|
 
 
-" A Terminal && Vim colorscheme
+" A Vim colorscheme
 " Author:       Alessandro Yorba
 " Script URL:   https://github.com/AlessandroYorba/Sidonia
 " License:      MIT
 
 "=================================================================================
+" BASIC TERMINAL COLORS:
+"=================================================================================
+"     Foreground   #e4edfa              |      Selection     #a2afc1             |
+"     Background   #2a3138              |      Selected Text #2a3138             |
+"     CursorColor  #e4edfa              |                                        |
+"     Bold         #FFFFFF              |
+"     Links        #E7424C              |
+"=================================================================================
 " ANSI COLORS:
 "=================================================================================
-"     Foreground   #e4edfa                                                       |
-"     Background   #2a3138                                                       |
-"     CursorColor  #e4edfa                                                       |
 "---------------------------------------|-----------------------------------------
-"     NORMAL       Hex          xterm   |      "BRIGHT      Hex          xterm   |
+"     NORMAL       Hex          xterm   |      BRIGHT       Hex          xterm   |
 "---------------------------------------|-----------------------------------------
 "     Black        #2a3138      0       |      brBlack      #5c6573      8       |
 "     Red          #E7424C      1       |      brRed        #E7424C      9       |
@@ -28,7 +33,7 @@
 "     Yellow       #c7f464      3       |      brYellow     #c7f464      11      |
 "     Blue         #a2afc1      4       |      brBlue       #a2afc1      12      |
 "     Magenta      #975a81      5       |      brMagenta    #f47863      13      |
-"     Cyan         #247dae      6       |      brCyan       #2f343c      14      |
+"     Cyan         #247dae      6       |      brCyan       #247dae      14      |
 "     White        #e4edfa      7       |      brWhite      #e4edfa      15      |
 "---------------------------------------|-----------------------------------------
 
@@ -64,7 +69,7 @@ highlight! PreProc                guifg=#E7424C  guibg=NONE     gui=NONE       c
 highlight! Comment                guifg=#5c6573  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
 highlight! Function               guifg=#a2afc1  guibg=NONE     gui=NONE       ctermfg=4     ctermbg=NONE  cterm=NONE
 highlight! SpecialKey             guifg=#c7f464  guibg=NONE     gui=NONE       ctermfg=3     ctermbg=NONE  cterm=NONE
-highlight! CursorLine             guifg=NONE     guibg=#2f343c  gui=NONE       ctermfg=NONE  ctermbg=14    cterm=NONE
+highlight! CursorLine             guifg=NONE     guibg=#2f343c  gui=NONE       ctermfg=NONE  ctermbg=0    cterm=NONE
 highlight! CursorColumn           guifg=NONE     guibg=#2a3138  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
 highlight! LineNr                 guifg=#5c6573  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
 highlight! Underlined             guifg=#975a81  guibg=NONE     gui=NONE       ctermfg=5     ctermbg=NONE  cterm=NONE
@@ -79,14 +84,14 @@ highlight! DiffChange             guifg=#9966B8  guibg=NONE     gui=reverse    c
 highlight! SpellBad               guifg=#E7424C  guibg=NONE     gui=undercurl  ctermfg=1     ctermbg=NONE  cterm=undercurl
 highlight! SpellLocal             guifg=#9966B8  guibg=NONE     gui=undercurl  ctermfg=8     ctermbg=NONE  cterm=undercurl
 highlight! SpellCap               guifg=#c7f464  guibg=NONE     gui=undercurl  ctermfg=3     ctermbg=NONE  cterm=undercurl
-highlight! VertSplit              guifg=#5c6573  guibg=#2f343c  gui=NONE       ctermfg=8     ctermbg=14    cterm=NONE
+highlight! VertSplit              guifg=#5c6573  guibg=#2f343c  gui=NONE       ctermfg=8     ctermbg=0    cterm=NONE
 
 highlight! link WildMenu          Visual
 highlight! link ModeMsg           Visual
 highlight! link PmenuThumb        PmenuSbar
-highlight! link CursorLineNr      StatusLine             
+highlight! link CursorLineNr      StatusLine
 highlight! link StatusLineNC      SpecialComment
-highlight! link PmenuSel          StatusLine 
+highlight! link PmenuSel          StatusLine
 highlight! link Pmenu             StatusLineNC
 highlight! link Folded            LineNr
 highlight! link ErrorMsg          Error
