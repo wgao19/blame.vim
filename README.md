@@ -12,7 +12,7 @@ Sidonia
 
 | Terminal Vim **24 bit support**                      | Gui Vim                   |
 |------------------------------------------------------|---------------------------|
-| ```set termguicolors```<br>```colorscheme sidonia``` | ```colorscheme sidonia``` | 
+| `set termguicolors`<br>`colorscheme sidonia` | `colorscheme sidonia` | 
 
 > Not sure if your terminal supports 24 bit colorschemes? Check out this list: [Truecolor Supported Terminals ](https://gist.github.com/XVilka/8346728)
 
@@ -20,7 +20,7 @@ Sidonia
 :open_file_folder: Download
 -----------------------------------------
 
-There are a few ways to install sidonia. The first option is by using your favorite vim package manager and the second is by manual download.
+> There are a few ways to install sidonia. The first option is by using your favorite vim package manager and the second is by manual download.
 
 ###### Package Manager Option
 
