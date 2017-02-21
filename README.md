@@ -6,8 +6,9 @@ Sidonia
 
 
 ![Screenshot](https://cloud.githubusercontent.com/assets/11221489/22623122/450031f2-eb04-11e6-9edb-f69f11f37aef.png)
-
-
+<br>
+<br>
+<br>
 :rocket: Setup 
 ---------------
 
@@ -16,9 +17,9 @@ Sidonia
 | `set termguicolors`<br>`colorscheme sidonia` | `colorscheme sidonia` | 
 
 > Not sure if your terminal supports 24 bit colorschemes? Check out this list: [Truecolor Supported Terminals ](https://gist.github.com/XVilka/8346728)
-
-
-
+<br>
+<br>
+<br>
 :open_file_folder: Download
 -----------------------------------------
 
@@ -35,9 +36,9 @@ Sidonia
 
 ###### Manual Download Option
 Download the .zip and copy `sidonia.vim` to `~/.vim/colors` (on Windows `<your-vim-dir>\vimfiles\colors`). Or for global accessibility, `/usr/share/vim/vimfiles/colors`.
-
-
-
+<br>
+<br>
+<br>
 :octopus: Related
 -------
 Feedback, issues or suggestions?. Open an Issue [Sidonia Issues](https://github.com/AlessandroYorba/Sidonia/issues)! Also, if you like Sidonia you might want to check out some of the other Vim themes that I'm working on:
