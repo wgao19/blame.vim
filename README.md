@@ -9,7 +9,6 @@ Sidonia
 
 <br>
 <br>
-<br>
 
 :rocket: Setup 
 ---------------
@@ -20,7 +19,6 @@ Sidonia
 
 > Not sure if your terminal supports 24 bit colorschemes? Check out this list: [Truecolor Supported Terminals ](https://gist.github.com/XVilka/8346728)
 
-<br>
 <br>
 <br>
 
@@ -41,7 +39,6 @@ Sidonia
 ###### Manual Download Option
 Download the .zip and copy `sidonia.vim` to `~/.vim/colors` (on Windows `<your-vim-dir>\vimfiles\colors`). Or for global accessibility, `/usr/share/vim/vimfiles/colors`.
 
-<br>
 <br>
 <br>
 
