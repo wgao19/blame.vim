@@ -72,7 +72,6 @@ highlight! SpecialKey             guifg=#c7f464  guibg=NONE     gui=NONE       c
 highlight! CursorLine             guifg=NONE     guibg=#2f343c  gui=NONE       ctermfg=NONE  ctermbg=0    cterm=NONE
 highlight! CursorColumn           guifg=NONE     guibg=#2a3138  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
 highlight! LineNr                 guifg=#5c6573  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
-highlight! Underlined             guifg=#975a81  guibg=NONE     gui=NONE       ctermfg=5     ctermbg=NONE  cterm=NONE
 highlight! TabLineFill            guifg=#5c6573  guibg=NONE     gui=underline  ctermfg=8     ctermbg=NONE  cterm=underline
 highlight! TabLine                guifg=#2a3138  guibg=#5c6573  gui=NONE       ctermfg=0     ctermbg=8     cterm=NONE
 highlight! SpecialComment         guifg=#5c6573  guibg=NONE     gui=reverse    ctermfg=8     ctermbg=NONE  cterm=reverse
@@ -84,39 +83,41 @@ highlight! DiffChange             guifg=#9966B8  guibg=NONE     gui=reverse    c
 highlight! SpellBad               guifg=#E7424C  guibg=NONE     gui=undercurl  ctermfg=1     ctermbg=NONE  cterm=undercurl
 highlight! SpellLocal             guifg=#9966B8  guibg=NONE     gui=undercurl  ctermfg=8     ctermbg=NONE  cterm=undercurl
 highlight! SpellCap               guifg=#c7f464  guibg=NONE     gui=undercurl  ctermfg=3     ctermbg=NONE  cterm=undercurl
-highlight! VertSplit              guifg=#5c6573  guibg=#2f343c  gui=NONE       ctermfg=8     ctermbg=0    cterm=NONE
+highlight! VertSplit              guifg=#5c6573  guibg=NONE  gui=NONE       ctermfg=8     ctermbg=0    cterm=NONE
 
-highlight! link WildMenu          Visual
-highlight! link ModeMsg           Visual
-highlight! link PmenuThumb        PmenuSbar
-highlight! link CursorLineNr      StatusLine
-highlight! link StatusLineNC      SpecialComment
-highlight! link PmenuSel          StatusLine
-highlight! link Pmenu             StatusLineNC
-highlight! link Folded            LineNr
-highlight! link ErrorMsg          Error
-highlight! link DiffDelete        Error
-highlight! link ColorColumn       CursorLine
-highlight! link SignColumn        String
-highlight! link MoreMsg           String
-highlight! link Directory         String
-highlight! link markdownLinkText  String
-highlight! link WarningMsg        String
-highlight! link Operator          Function
-highlight! link Special           Function
-highlight! link Identifier        Function
-highlight! link Statement         Function
-highlight! link Type              Function
-highlight! link Constant          Function
-highlight! link htmlEndTag        Function
-highlight! link Number            PreProc
-highlight! link Title             PreProc
-highlight! link FoldColumn        PreProc
-highlight! link phpVarSelector    PreProc
-highlight! link StorageClass      Normal
-highlight! link DiffText          DiffAdd
-highlight! link Question          SpecialKey
-highlight! link markdownUrl       Underlined
-highlight! link SpellRare         SpellLocal
-highlight! link NonText           Comment
-highlight! link VimCommentTitle   SpecialComment
+highlight! link DiffDelete          Error
+highlight! link ErrorMsg            Error
+highlight! link WildMenu            Visual
+highlight! link ModeMsg             Visual
+highlight! link SignColumn          String
+highlight! link MoreMsg             String
+highlight! link markdownLinkText    String
+highlight! link WarningMsg          String
+highlight! link Title               PreProc
+highlight! link Number              PreProc
+highlight! link FoldColumn          PreProc
+highlight! link phpVarSelector      PreProc
+highlight! link Directory           PreProc
+highlight! link cssIdentifier       PreProc
+highlight! link cssClassName        PreProc
+highlight! link Identifier          Function
+highlight! link Special             Function
+highlight! link Type                Function
+highlight! link Statement           Function
+highlight! link Constant            Function
+highlight! link Operator            Function
+highlight! link markdownUrl         SpecialKey
+highlight! link Underlined          SpecialKey
+highlight! link Question            SpecialKey
+highlight! link Pmenu               StatusLineNC
+highlight! link TabLine             StatusLineNC
+highlight! link Folded              LineNr
+highlight! link StorageClass        Normal
+highlight! link NonText             Comment
+highlight! link DiffText            DiffAdd
+highlight! link PmenuThumb          PmenuSbar
+highlight! link ColorColumn         CursorLine
+highlight! link CursorLineNr        TabLineSel
+highlight! link PmenuSel            StatusLine
+highlight! link SpellRare           SpellLocal
+highlight! link VimCommentTitle     SpecialComment
