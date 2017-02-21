@@ -9,9 +9,6 @@ Sidonia
 
 :rocket: Setup 
 ---------------
-###### 24 Bit Color Setup ( Recommended )
-
-###### Package Manager Option
 
 | Terminal Vim with 24 bit color                       | Gui Vim                   |
 |------------------------------------------------------|---------------------------|
@@ -20,7 +17,7 @@ Sidonia
 Not sure if your terminal supports 24 bit colorschemes? Check out this list: [Truecolor Supported Terminals ](https://gist.github.com/XVilka/8346728)
 
 
-:open_file_folder: Installation
+:open_file_folder: Download
 -----------------------------------------
 
 There are a few ways to install sidonia. The first option is by using your favorite vim package manager and the second is by manual download.
@@ -34,7 +31,7 @@ There are a few ways to install sidonia. The first option is by using your favor
 | VimPlug          | add to .vimrc:  | `Plug 'alessandroyorba/sidonia'`                                           |
 | Pathogen         | from terminal:  | `cd ~/.vim/bundle && \ git clone git://github.com/alessandroyorba/sidonia` |
 
-###### Download Option
+###### Manual Download Option
 Download the .zip and copy `sidonia.vim` to `~/.vim/colors` (on Windows `<your-vim-dir>\vimfiles\colors`). Or for global accessibility, `/usr/share/vim/vimfiles/colors`.
 
 
