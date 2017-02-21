@@ -10,11 +10,11 @@ Sidonia
 :rocket: Setup 
 ---------------
 
-| Terminal Vim with 24 bit color                       | Gui Vim                   |
+| Terminal Vim **24 bit support**                      | Gui Vim                   |
 |------------------------------------------------------|---------------------------|
 | ```set termguicolors```<br>```colorscheme sidonia``` | ```colorscheme sidonia``` | 
 
-Not sure if your terminal supports 24 bit colorschemes? Check out this list: [Truecolor Supported Terminals ](https://gist.github.com/XVilka/8346728)
+> Not sure if your terminal supports 24 bit colorschemes? Check out this list: [Truecolor Supported Terminals ](https://gist.github.com/XVilka/8346728)
 
 
 :open_file_folder: Download
