@@ -5,7 +5,7 @@ Sidonia
 
 
 
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/22623122/450031f2-eb04-11e6-9edb-f69f11f37aef.png)
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/23288372/12cdd0a6-f9f8-11e6-8369-9c01eeaf96c7.png)
 
 :hankey: Notes
 ----------------
