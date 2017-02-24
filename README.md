@@ -1,11 +1,7 @@
 Sidonia
 ------
 ###### Sidonia < = >
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/23108895/75f16c34-f6c8-11e6-85c1-13581c752422.gif)
-
-
-
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/23288372/12cdd0a6-f9f8-11e6-8369-9c01eeaf96c7.png)
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/23292900/ad84ddc8-fa17-11e6-8a6f-10002f6fdbf4.png)
 
 :hankey: Notes
 ----------------
