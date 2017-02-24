@@ -86,7 +86,7 @@ if 1
     highlight! Search             guifg=#f59527  guibg=NONE     gui=reverse    ctermfg=4     ctermbg=NONE  cterm=reverse
     highlight! DiffAdd            guifg=#e4edfa  guibg=NONE     gui=reverse    ctermfg=7     ctermbg=NONE  cterm=reverse
     highlight! DiffChange         guifg=#9966B8  guibg=NONE     gui=reverse    ctermfg=5     ctermbg=NONE  cterm=reverse
-    highlight! MatchParen         guifg=#2a3138  guibg=#f59527  gui=NONE       ctermfg=4     ctermbg=0     cterm=NONE
+    highlight! MatchParen         guifg=#2a3138  guibg=#f59527  gui=NONE       ctermfg=0     ctermbg=4     cterm=NONE
     highlight! SpecialKey         guifg=#046380  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
     highlight! Todo               guifg=#6991ac  guibg=NONE     gui=reverse    ctermfg=10    ctermbg=NONE  cterm=reverse
 endif
