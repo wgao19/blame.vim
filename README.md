@@ -9,7 +9,7 @@ Sidonia
 
 :hankey: Notes
 ----------------
-> Warning: This is an experimental colorscheme that uses a very limited color palette. It's designed to be simple and streamlined using a minimalist approach. Let me know what you think, suggestions are welcome!
+> Warning: This is an experimental colorscheme that uses a very limited color palette. It's designed to be simple and streamlined. Let me know what you think, suggestions are welcome!
 
 
 :rocket: Setup 
