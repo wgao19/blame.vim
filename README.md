@@ -7,6 +7,10 @@ Sidonia
 
 ![Screenshot](https://cloud.githubusercontent.com/assets/11221489/22623122/450031f2-eb04-11e6-9edb-f69f11f37aef.png)
 
+:hankey: Notes
+----------------
+> Warning: This is an experimental colorscheme that uses a very limited color palette. It's designed to be simple and streamlined using a minimalist approach. Let me know what you think, suggestions are welcome!
+
 
 :rocket: Setup 
 ---------------
