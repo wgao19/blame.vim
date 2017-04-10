@@ -1,4 +1,4 @@
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/24842210/254e202c-1d49-11e7-8d88-84a2c1534e1c.png)
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/24883966/227977b2-1dfc-11e7-837c-26ef6b45b175.png)
 
 Set Up
 ------
