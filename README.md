@@ -1,10 +1,24 @@
-Sidonia
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/24842010/92f7f192-1d45-11e7-9bf4-83a29073355e.png)
+
+Set Up
 ------
+
+###### For 24 Bit Terminals
 ```VimL
 set termguicolors
 colorscheme sidonia
 ```
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/24350001/841ddca0-1295-11e7-8a96-d201d2825d24.png)
+
+###### For GUI
+```VimL
+colorscheme sidonia
+```
+
+###### For 8/16/256 Terminals ( Use Matching Terminal Xresources or iTerm )
+```VimL
+set t_Co=16
+colorscheme sidonia
+```
 
 :octocat: Special Thanks
 -----------------
