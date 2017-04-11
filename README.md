@@ -1,6 +1,6 @@
 ![Screenshot](https://cloud.githubusercontent.com/assets/11221489/24883966/227977b2-1dfc-11e7-837c-26ef6b45b175.png)
 
-Set Up
+:space_invader: Set Up
 ------
 
 ###### For 24 Bit Terminals
