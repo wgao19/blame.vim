@@ -20,6 +20,10 @@ set t_Co=16
 colorscheme sidonia
 ```
 
+:crescent_moon: Nightly Build
+----------------------------
+pre-release version [here](https://github.com/AlessandroYorba/Sidonia/tree/nightly)
+
 :octocat: Special Thanks
 -----------------
 [mreinhardt for UI inspiration](https://github.com/mreinhardt)
