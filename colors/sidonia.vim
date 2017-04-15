@@ -11,7 +11,26 @@
 " A Vim colorscheme
 " Author:       Alessandro Yorba
 " Script URL:   https://github.com/AlessandroYorba/Sidonia
-" License:      MIT
+
+" Copyright (c) 2017 Alessandro Yorba
+"
+" Permission is hereby granted, free of charge, to any person obtaining a copy
+" of this software and associated documentation files (the "Software"), to deal
+" in the Software without restriction, including without limitation the rights
+" to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+" copies of the Software, and to permit persons to whom the Software is
+" furnished to do so, subject to the following conditions:
+"
+" The above copyright notice and this permission notice shall be included in
+" all copies or substantial portions of the Software.
+"
+" THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+" IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+" FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+" AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+" LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+" OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+" THE SOFTWARE.
 
 "=================================================================================
 " BASIC TERMINAL COLORS:
@@ -49,14 +68,11 @@ if exists("syntax_on")
 endif
 
 "=======================================================================================================================
-" LOAD DEFAULT PARAMETERS:
+"  SIDONIA HIGHLIGHTING:
 "=======================================================================================================================
 
 let g:colors_name="sidonia"
 
-"=======================================================================================================================
-" COMMON SIDONIA HIGHLIGHTING:
-"=======================================================================================================================
 highlight! Normal                 guifg=#e4edfa  guibg=#2a3138  gui=NONE       ctermfg=7     ctermbg=0     cterm=NONE
 highlight! LineNr                 guifg=#5c6573  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
 highlight! TabLine                guifg=#2a3138  guibg=#5c6573  gui=NONE       ctermfg=0     ctermbg=8     cterm=NONE
@@ -76,20 +92,14 @@ highlight! Error                  guifg=#E7424C  guibg=NONE     gui=reverse    c
 highlight! SpellBad               guifg=#E7424C  guibg=NONE     gui=undercurl  ctermfg=1     ctermbg=NONE  cterm=undercurl
 highlight! SpellLocal             guifg=#9966B8  guibg=NONE     gui=undercurl  ctermfg=8     ctermbg=NONE  cterm=undercurl
 highlight! SpellCap               guifg=#f59527  guibg=NONE     gui=undercurl  ctermfg=4     ctermbg=NONE  cterm=undercurl
-
-"=======================================================================================================================
-" SIDONIA:
-"=======================================================================================================================
-if 1
-    highlight! PreProc            guifg=#f59527  guibg=NONE     gui=NONE       ctermfg=4     ctermbg=NONE  cterm=NONE
-    highlight! String             guifg=#6991ac  guibg=NONE     gui=NONE       ctermfg=2     ctermbg=NONE  cterm=NONE
-    highlight! Search             guifg=#f59527  guibg=NONE     gui=reverse    ctermfg=4     ctermbg=NONE  cterm=reverse
-    highlight! DiffAdd            guifg=#e4edfa  guibg=NONE     gui=reverse    ctermfg=7     ctermbg=NONE  cterm=reverse
-    highlight! DiffChange         guifg=#9966B8  guibg=NONE     gui=reverse    ctermfg=5     ctermbg=NONE  cterm=reverse
-    highlight! MatchParen         guifg=#2a3138  guibg=#f59527  gui=NONE       ctermfg=0     ctermbg=4     cterm=NONE
-    highlight! SpecialKey         guifg=#046380  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
-    highlight! Todo               guifg=#6991ac  guibg=NONE     gui=reverse    ctermfg=2     ctermbg=NONE  cterm=reverse
-endif
+highlight! PreProc                guifg=#f59527  guibg=NONE     gui=NONE       ctermfg=4     ctermbg=NONE  cterm=NONE
+highlight! String                 guifg=#6991ac  guibg=NONE     gui=NONE       ctermfg=2     ctermbg=NONE  cterm=NONE
+highlight! Search                 guifg=#f59527  guibg=NONE     gui=reverse    ctermfg=4     ctermbg=NONE  cterm=reverse
+highlight! DiffAdd                guifg=#e4edfa  guibg=NONE     gui=reverse    ctermfg=7     ctermbg=NONE  cterm=reverse
+highlight! DiffChange             guifg=#9966B8  guibg=NONE     gui=reverse    ctermfg=5     ctermbg=NONE  cterm=reverse
+highlight! MatchParen             guifg=#2a3138  guibg=#f59527  gui=NONE       ctermfg=0     ctermbg=4     cterm=NONE
+highlight! SpecialKey             guifg=#046380  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
+highlight! Todo                   guifg=#6991ac  guibg=NONE     gui=reverse    ctermfg=2     ctermbg=NONE  cterm=reverse
 
 highlight! link DiffDelete        Error
 highlight! link ErrorMsg          Error
@@ -108,9 +118,9 @@ highlight! link phpVarSelector    PreProc
 highlight! link Directory         PreProc
 highlight! link cssIdentifier     PreProc
 highlight! link cssClassName      PreProc
+highlight! link Type              PreProc
 highlight! link Identifier        Function
 highlight! link Special           Function
-highlight! link Type              Function
 highlight! link Statement         Function
 highlight! link Constant          Function
 highlight! link Operator          Function
