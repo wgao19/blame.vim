@@ -118,7 +118,7 @@ highlight! link phpVarSelector    PreProc
 highlight! link Directory         PreProc
 highlight! link cssIdentifier     PreProc
 highlight! link cssClassName      PreProc
-highlight! link Type              PreProc
+highlight! link Type              Function
 highlight! link Identifier        Function
 highlight! link Special           Function
 highlight! link Statement         Function
