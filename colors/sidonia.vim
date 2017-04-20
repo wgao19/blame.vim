@@ -50,7 +50,7 @@
 "     Red          #E7424C      1       |      brRed        #E7424C      9       |
 "     Green        #6991ac      2       |      brGreen      #6991ac      10      |
 "     Yellow       #8c98a7      3       |      brYellow     #8c98a7      11      |
-"     Blue         #f59527      4       |      brBlue       #f59527      12      |
+"     Blue         #cc900e      4       |      brBlue       #cc900e      12      |
 "     Magenta      #975a81      5       |      brMagenta    #975a81      13      |
 "     Cyan         #046380      6       |      brCyan       #046380      14      |
 "     White        #c7cfda      7       |      brWhite      #c7cfda      15      |
@@ -91,13 +91,13 @@ highlight! SpecialComment         guifg=#4a5265  guibg=NONE     gui=reverse    c
 highlight! Error                  guifg=#E7424C  guibg=NONE     gui=reverse    ctermfg=1     ctermbg=NONE  cterm=reverse
 highlight! SpellBad               guifg=#E7424C  guibg=NONE     gui=undercurl  ctermfg=1     ctermbg=NONE  cterm=undercurl
 highlight! SpellLocal             guifg=#4a5265  guibg=NONE     gui=undercurl  ctermfg=8     ctermbg=NONE  cterm=undercurl
-highlight! SpellCap               guifg=#f59527  guibg=NONE     gui=undercurl  ctermfg=4     ctermbg=NONE  cterm=undercurl
-highlight! PreProc                guifg=#f59527  guibg=NONE     gui=NONE       ctermfg=4     ctermbg=NONE  cterm=NONE
+highlight! SpellCap               guifg=#cc900e  guibg=NONE     gui=undercurl  ctermfg=4     ctermbg=NONE  cterm=undercurl
+highlight! PreProc                guifg=#cc900e  guibg=NONE     gui=NONE       ctermfg=4     ctermbg=NONE  cterm=NONE
 highlight! String                 guifg=#6991ac  guibg=NONE     gui=NONE       ctermfg=2     ctermbg=NONE  cterm=NONE
-highlight! Search                 guifg=#f59527  guibg=NONE     gui=reverse    ctermfg=4     ctermbg=NONE  cterm=reverse
+highlight! Search                 guifg=#cc900e  guibg=NONE     gui=reverse    ctermfg=4     ctermbg=NONE  cterm=reverse
 highlight! DiffAdd                guifg=#c7cfda  guibg=NONE     gui=reverse    ctermfg=7     ctermbg=NONE  cterm=reverse
 highlight! DiffChange             guifg=#9966B8  guibg=NONE     gui=reverse    ctermfg=5     ctermbg=NONE  cterm=reverse
-highlight! MatchParen             guifg=#2b303b  guibg=#f59527  gui=NONE       ctermfg=0     ctermbg=4     cterm=NONE
+highlight! MatchParen             guifg=#2b303b  guibg=#cc900e  gui=NONE       ctermfg=0     ctermbg=4     cterm=NONE
 highlight! SpecialKey             guifg=#046380  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
 highlight! Todo                   guifg=#6991ac  guibg=NONE     gui=reverse    ctermfg=2     ctermbg=NONE  cterm=reverse
 
