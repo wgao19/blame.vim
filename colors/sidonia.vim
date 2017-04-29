@@ -98,8 +98,8 @@ highlight! Search                 guifg=#cc900e  guibg=NONE     gui=reverse    c
 highlight! DiffAdd                guifg=#c7cfda  guibg=NONE     gui=reverse    ctermfg=7     ctermbg=NONE  cterm=reverse
 highlight! DiffChange             guifg=#9966B8  guibg=NONE     gui=reverse    ctermfg=5     ctermbg=NONE  cterm=reverse
 highlight! MatchParen             guifg=#2b303b  guibg=#cc900e  gui=NONE       ctermfg=0     ctermbg=4     cterm=NONE
-highlight! SpecialKey             guifg=#046380  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
 highlight! Todo                   guifg=#6991ac  guibg=NONE     gui=reverse    ctermfg=2     ctermbg=NONE  cterm=reverse
+highlight! Question               guifg=#046380  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
 
 highlight! link DiffDelete        Error
 highlight! link ErrorMsg          Error
@@ -124,14 +124,14 @@ highlight! link Special           Function
 highlight! link Statement         Function
 highlight! link Constant          Function
 highlight! link Operator          Function
-highlight! link markdownUrl       SpecialKey
-highlight! link Underlined        SpecialKey
-highlight! link Question          SpecialKey
+highlight! link markdownUrl       Question
+highlight! link NonText           Comment
+highlight! link Underlined        Comment
+highlight! link SpecialKey        Comment
 highlight! link Pmenu             StatusLineNC
 highlight! link TabLine           StatusLineNC
 highlight! link VimCommentTitle   SpecialComment
 highlight! link Folded            LineNr
-highlight! link NonText           Comment
 highlight! link DiffText          DiffAdd
 highlight! link PmenuThumb        PmenuSbar
 highlight! link ColorColumn       CursorLine
