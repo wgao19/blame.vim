@@ -100,6 +100,7 @@ highlight! DiffChange             guifg=#9966B8  guibg=NONE     gui=reverse    c
 highlight! MatchParen             guifg=#2b303b  guibg=#cc900e  gui=NONE       ctermfg=0     ctermbg=4     cterm=NONE
 highlight! Todo                   guifg=#6991ac  guibg=NONE     gui=reverse    ctermfg=2     ctermbg=NONE  cterm=reverse
 highlight! Question               guifg=#046380  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
+highlight! Underlined             guifg=#046380  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
 
 highlight! link DiffDelete        Error
 highlight! link ErrorMsg          Error
@@ -126,7 +127,6 @@ highlight! link Constant          Function
 highlight! link Operator          Function
 highlight! link markdownUrl       Question
 highlight! link NonText           Comment
-highlight! link Underlined        Comment
 highlight! link SpecialKey        Comment
 highlight! link Pmenu             StatusLineNC
 highlight! link TabLine           StatusLineNC
