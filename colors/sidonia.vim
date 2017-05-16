@@ -35,25 +35,25 @@
 "=================================================================================
 " BASIC TERMINAL COLORS:
 "=================================================================================
-"     Foreground   #c7cfda              |      Selection     #8c98a7             |
-"     Background   #2b303b              |      Selected Text #2b303b             |
-"     CursorColor  #e4edfa              |                                        |
-"     Bold         #FFFFFF              |
-"     Links        #E7424C              |
+"     Foreground   #c1c9d4              |      Selection     #8c98a7             |
+"     Background   #2b3240              |      Selected Text #2b3240             |
+"     CursorColor  #ffffff              |                                        |
+"     Bold         #ffffff              |
+"     Links        #e62344              |
 "=================================================================================
 " ANSI COLORS:
 "=================================================================================
 "---------------------------------------|-----------------------------------------
 "     NORMAL       Hex          xterm   |      BRIGHT       Hex          xterm   |
 "---------------------------------------|-----------------------------------------
-"     Black        #2b303b      0       |      brBlack      #4a5265      8       |
-"     Red          #E7424C      1       |      brRed        #E7424C      9       |
-"     Green        #6991ac      2       |      brGreen      #6991ac      10      |
-"     Yellow       #8c98a7      3       |      brYellow     #8c98a7      11      |
-"     Blue         #cc900e      4       |      brBlue       #cc900e      12      |
-"     Magenta      #975a81      5       |      brMagenta    #975a81      13      |
-"     Cyan         #046380      6       |      brCyan       #046380      14      |
-"     White        #c7cfda      7       |      brWhite      #c7cfda      15      |
+"     Black        #2b3240      0       |      brBlack      #4a5265      8       |
+"     Red          #e62344      1       |      brRed        #e62344      9       |
+"     Green        #538302      2       |      brGreen      #538302      10      |
+"     Yellow       #cc900e      3       |      brYellow     #cc900e      11      |
+"     Blue         #5c8097      4       |      brBlue       #5c8097      12      |
+"     Magenta      #5f5f87      5       |      brMagenta    #5f5f87      13      |
+"     Cyan         #008097      6       |      brCyan       #008097      14      |
+"     White        #8c98a7      7       |      brWhite      #c1c9d4      15      |
 "---------------------------------------|-----------------------------------------
 
 "=================================================================================
@@ -73,34 +73,36 @@ endif
 
 let g:colors_name="sidonia"
 
-highlight! Normal                 guifg=#c7cfda  guibg=#2b303b  gui=NONE       ctermfg=7     ctermbg=0     cterm=NONE
+highlight! Normal                 guifg=#c1c9d4  guibg=#2b3240  gui=NONE       ctermfg=15     ctermbg=0     cterm=NONE
 highlight! LineNr                 guifg=#4a5265  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
-highlight! TabLine                guifg=#2b303b  guibg=#4a5265  gui=NONE       ctermfg=0     ctermbg=8     cterm=NONE
-highlight! TabLineSel             guifg=#2b303b  guibg=#8c98a7  gui=NONE       ctermfg=0     ctermbg=3     cterm=NONE
+highlight! TabLine                guifg=#2b3240  guibg=#4a5265  gui=NONE       ctermfg=0     ctermbg=8     cterm=NONE
+highlight! TabLineSel             guifg=#2b3240  guibg=#8c98a7  gui=NONE       ctermfg=0     ctermbg=7     cterm=NONE
 highlight! TabLineFill            guifg=#4a5265  guibg=NONE     gui=underline  ctermfg=8     ctermbg=NONE  cterm=underline
-highlight! CursorLine             guifg=NONE     guibg=#272B34  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
-highlight! CursorColumn           guifg=NONE     guibg=#2b303b  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
-highlight! StatusLine             guifg=#c7cfda  guibg=#4a5265  gui=NONE       ctermfg=7     ctermbg=8     cterm=NONE
-highlight! StatusLineNC           guifg=#2b303b  guibg=#4a5265  gui=NONE       ctermfg=0     ctermbg=8     cterm=NONE
+highlight! CursorLine             guifg=NONE     guibg=#2D3443  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
+highlight! CursorColumn           guifg=NONE     guibg=#2b3240  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
+highlight! StatusLine             guifg=#c1c9d4  guibg=#4a5265  gui=NONE       ctermfg=15     ctermbg=8     cterm=NONE
+highlight! StatusLineNC           guifg=#2b3240  guibg=#4a5265  gui=NONE       ctermfg=0     ctermbg=8     cterm=NONE
 highlight! VertSplit              guifg=#4a5265  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=0     cterm=NONE
-highlight! Visual                 guifg=#8c98a7  guibg=NONE     gui=reverse    ctermfg=3     ctermbg=NONE  cterm=reverse
+highlight! Visual                 guifg=#8c98a7  guibg=NONE     gui=reverse    ctermfg=7     ctermbg=NONE  cterm=reverse
 highlight! PmenuSbar              guifg=#4a5265  guibg=#4a5265  gui=NONE       ctermfg=8     ctermbg=8     cterm=NONE
 highlight! Comment                guifg=#4a5265  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
-highlight! Function               guifg=#8c98a7  guibg=NONE     gui=NONE       ctermfg=3     ctermbg=NONE  cterm=NONE
+highlight! Function               guifg=#8c98a7  guibg=NONE     gui=NONE       ctermfg=7     ctermbg=NONE  cterm=NONE
 highlight! SpecialComment         guifg=#4a5265  guibg=NONE     gui=reverse    ctermfg=8     ctermbg=NONE  cterm=reverse
-highlight! Error                  guifg=#E7424C  guibg=NONE     gui=reverse    ctermfg=1     ctermbg=NONE  cterm=reverse
-highlight! SpellBad               guifg=#E7424C  guibg=NONE     gui=undercurl  ctermfg=1     ctermbg=NONE  cterm=undercurl
+highlight! Error                  guifg=#e62344  guibg=NONE     gui=reverse    ctermfg=1     ctermbg=NONE  cterm=reverse
+highlight! SpellBad               guifg=#e62344  guibg=NONE     gui=undercurl  ctermfg=1     ctermbg=NONE  cterm=undercurl
 highlight! SpellLocal             guifg=#4a5265  guibg=NONE     gui=undercurl  ctermfg=8     ctermbg=NONE  cterm=undercurl
-highlight! SpellCap               guifg=#cc900e  guibg=NONE     gui=undercurl  ctermfg=4     ctermbg=NONE  cterm=undercurl
-highlight! PreProc                guifg=#cc900e  guibg=NONE     gui=NONE       ctermfg=4     ctermbg=NONE  cterm=NONE
-highlight! String                 guifg=#6991ac  guibg=NONE     gui=NONE       ctermfg=2     ctermbg=NONE  cterm=NONE
-highlight! Search                 guifg=#cc900e  guibg=NONE     gui=reverse    ctermfg=4     ctermbg=NONE  cterm=reverse
-highlight! DiffAdd                guifg=#c7cfda  guibg=NONE     gui=reverse    ctermfg=7     ctermbg=NONE  cterm=reverse
-highlight! DiffChange             guifg=#9966B8  guibg=NONE     gui=reverse    ctermfg=5     ctermbg=NONE  cterm=reverse
-highlight! MatchParen             guifg=#2b303b  guibg=#cc900e  gui=NONE       ctermfg=0     ctermbg=4     cterm=NONE
-highlight! Todo                   guifg=#6991ac  guibg=NONE     gui=reverse    ctermfg=2     ctermbg=NONE  cterm=reverse
-highlight! Question               guifg=#046380  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
-highlight! Underlined             guifg=#046380  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
+highlight! SpellCap               guifg=#5c8097  guibg=NONE     gui=undercurl  ctermfg=4     ctermbg=NONE  cterm=undercurl
+
+highlight! PreProc                guifg=#538302  guibg=NONE     gui=NONE       ctermfg=2     ctermbg=NONE  cterm=NONE
+highlight! Todo                   guifg=#538302  guibg=NONE     gui=reverse    ctermfg=2     ctermbg=NONE  cterm=reverse
+highlight! String                 guifg=#5c8097  guibg=NONE     gui=NONE       ctermfg=4     ctermbg=NONE  cterm=NONE
+highlight! Search                 guifg=#5c8097  guibg=NONE     gui=reverse    ctermfg=4     ctermbg=NONE  cterm=reverse
+
+"TODO
+highlight! DiffAdd                guifg=#c1c9d4  guibg=NONE     gui=reverse    ctermfg=15    ctermbg=NONE  cterm=reverse
+highlight! DiffChange             guifg=#5f5f87  guibg=NONE     gui=reverse    ctermfg=5     ctermbg=NONE  cterm=reverse
+highlight! Question               guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
+highlight! Underlined             guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
 
 highlight! link DiffDelete        Error
 highlight! link ErrorMsg          Error
@@ -136,5 +138,6 @@ highlight! link DiffText          DiffAdd
 highlight! link PmenuThumb        PmenuSbar
 highlight! link ColorColumn       CursorLine
 highlight! link CursorLineNr      TabLineSel
+highlight! link MatchParen        TabLineSel
 highlight! link PmenuSel          StatusLine
 highlight! link SpellRare         SpellLocal
