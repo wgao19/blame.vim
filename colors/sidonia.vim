@@ -49,7 +49,7 @@
 "     Black        #2b3240      0       |      brBlack      #4a5265      8       |
 "     Red          #a32344      1       |      brRed        #a32344      9       |
 "     Green        #538302      2       |      brGreen      #538302      10      |
-"     Yellow       #a9c173      3       |      brYellow     #a9c173      11      |
+"     Yellow       #ffffff      3       |      brYellow     #ffffff      11      |
 "     Blue         #5c8097      4       |      brBlue       #5c8097      12      |
 "     Magenta      #4f426a      5       |      brMagenta    #4f426a      13      |
 "     Cyan         #008097      6       |      brCyan       #008097      14      |
@@ -93,10 +93,11 @@ highlight! SpellBad               guifg=#a32344  guibg=NONE     gui=undercurl  c
 highlight! SpellLocal             guifg=#4a5265  guibg=NONE     gui=undercurl  ctermfg=8     ctermbg=NONE  cterm=undercurl
 highlight! SpellCap               guifg=#5c8097  guibg=NONE     gui=undercurl  ctermfg=4     ctermbg=NONE  cterm=undercurl
 
-highlight! PreProc                guifg=#538302  guibg=NONE     gui=NONE       ctermfg=2     ctermbg=NONE  cterm=NONE
-highlight! Todo                   guifg=#538302  guibg=NONE     gui=reverse    ctermfg=2     ctermbg=NONE  cterm=reverse
+highlight! PreProc                guifg=#ffffff  guibg=NONE     gui=NONE       ctermfg=3     ctermbg=NONE  cterm=NONE
+highlight! Todo                   guifg=#ffffff  guibg=NONE     gui=reverse    ctermfg=3     ctermbg=NONE  cterm=reverse
 highlight! String                 guifg=#5c8097  guibg=NONE     gui=NONE       ctermfg=4     ctermbg=NONE  cterm=NONE
 highlight! Search                 guifg=#5c8097  guibg=NONE     gui=reverse    ctermfg=4     ctermbg=NONE  cterm=reverse
+highlight! Number                 guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
 
 "TODO
 highlight! DiffAdd                guifg=#c1c9d4  guibg=NONE     gui=reverse    ctermfg=15    ctermbg=NONE  cterm=reverse
@@ -110,15 +111,14 @@ highlight! link WildMenu          Visual
 highlight! link ModeMsg           Visual
 highlight! link StorageClass      Normal
 highlight! link htmlItalic        Normal
-highlight! link SignColumn        String
-highlight! link MoreMsg           String
+highlight! link WarningMsg        Number
+highlight! link MoreMsg           Number
+highlight! link SignColumn        Number
 highlight! link markdownLinkText  String
-highlight! link WarningMsg        String
+highlight! link Directory         String
 highlight! link Title             PreProc
-highlight! link Number            PreProc
 highlight! link FoldColumn        PreProc
 highlight! link phpVarSelector    PreProc
-highlight! link Directory         PreProc
 highlight! link cssIdentifier     PreProc
 highlight! link cssClassName      PreProc
 highlight! link Type              Function
