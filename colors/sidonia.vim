@@ -47,11 +47,11 @@
 "     NORMAL       Hex          xterm   |      BRIGHT       Hex          xterm   |
 "---------------------------------------|-----------------------------------------
 "     Black        #2b3240      0       |      brBlack      #4a5265      8       |
-"     Red          #e62344      1       |      brRed        #e62344      9       |
+"     Red          #a32344      1       |      brRed        #a32344      9       |
 "     Green        #538302      2       |      brGreen      #538302      10      |
-"     Yellow       #cc900e      3       |      brYellow     #cc900e      11      |
+"     Yellow       #a9c173      3       |      brYellow     #a9c173      11      |
 "     Blue         #5c8097      4       |      brBlue       #5c8097      12      |
-"     Magenta      #5f5f87      5       |      brMagenta    #5f5f87      13      |
+"     Magenta      #4f426a      5       |      brMagenta    #4f426a      13      |
 "     Cyan         #008097      6       |      brCyan       #008097      14      |
 "     White        #8c98a7      7       |      brWhite      #c1c9d4      15      |
 "---------------------------------------|-----------------------------------------
@@ -88,8 +88,8 @@ highlight! PmenuSbar              guifg=#4a5265  guibg=#4a5265  gui=NONE       c
 highlight! Comment                guifg=#4a5265  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
 highlight! Function               guifg=#8c98a7  guibg=NONE     gui=NONE       ctermfg=7     ctermbg=NONE  cterm=NONE
 highlight! SpecialComment         guifg=#4a5265  guibg=NONE     gui=reverse    ctermfg=8     ctermbg=NONE  cterm=reverse
-highlight! Error                  guifg=#e62344  guibg=NONE     gui=reverse    ctermfg=1     ctermbg=NONE  cterm=reverse
-highlight! SpellBad               guifg=#e62344  guibg=NONE     gui=undercurl  ctermfg=1     ctermbg=NONE  cterm=undercurl
+highlight! Error                  guifg=#a32344  guibg=NONE     gui=reverse    ctermfg=1     ctermbg=NONE  cterm=reverse
+highlight! SpellBad               guifg=#a32344  guibg=NONE     gui=undercurl  ctermfg=1     ctermbg=NONE  cterm=undercurl
 highlight! SpellLocal             guifg=#4a5265  guibg=NONE     gui=undercurl  ctermfg=8     ctermbg=NONE  cterm=undercurl
 highlight! SpellCap               guifg=#5c8097  guibg=NONE     gui=undercurl  ctermfg=4     ctermbg=NONE  cterm=undercurl
 
@@ -100,7 +100,7 @@ highlight! Search                 guifg=#5c8097  guibg=NONE     gui=reverse    c
 
 "TODO
 highlight! DiffAdd                guifg=#c1c9d4  guibg=NONE     gui=reverse    ctermfg=15    ctermbg=NONE  cterm=reverse
-highlight! DiffChange             guifg=#5f5f87  guibg=NONE     gui=reverse    ctermfg=5     ctermbg=NONE  cterm=reverse
+highlight! DiffChange             guifg=#4f426a  guibg=NONE     gui=reverse    ctermfg=5     ctermbg=NONE  cterm=reverse
 highlight! Question               guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
 highlight! Underlined             guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
 
