@@ -47,7 +47,7 @@
 "     NORMAL       Hex          xterm   |      BRIGHT       Hex          xterm   |
 "---------------------------------------|-----------------------------------------
 "     Black        #2b3240      0       |      brBlack      #4a5265      8       |
-"     Red          #a32344      1       |      brRed        #a32344      9       |
+"     Red          #bc284f      1       |      brRed        #bc284f      9       |
 "     Green        #88b4ad      2       |      brGreen      #88b4ad      10      |
 "     Yellow       #ffffff      3       |      brYellow     #ffffff      11      |
 "     Blue         #5c8097      4       |      brBlue       #5c8097      12      |
@@ -73,14 +73,14 @@ endif
 
 let g:colors_name="sidonia"
 
-highlight! Normal                 guifg=#c1c9d4  guibg=#2b3240  gui=NONE       ctermfg=15     ctermbg=0     cterm=NONE
+highlight! Normal                 guifg=#c1c9d4  guibg=#2b3240  gui=NONE       ctermfg=15    ctermbg=0     cterm=NONE
 highlight! LineNr                 guifg=#4a5265  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
 highlight! TabLine                guifg=#2b3240  guibg=#4a5265  gui=NONE       ctermfg=0     ctermbg=8     cterm=NONE
 highlight! TabLineSel             guifg=#2b3240  guibg=#8c98a7  gui=NONE       ctermfg=0     ctermbg=7     cterm=NONE
 highlight! TabLineFill            guifg=#4a5265  guibg=NONE     gui=underline  ctermfg=8     ctermbg=NONE  cterm=underline
 highlight! CursorLine             guifg=NONE     guibg=#2D3443  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
 highlight! CursorColumn           guifg=NONE     guibg=#2b3240  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
-highlight! StatusLine             guifg=#c1c9d4  guibg=#4a5265  gui=NONE       ctermfg=15     ctermbg=8     cterm=NONE
+highlight! StatusLine             guifg=#c1c9d4  guibg=#4a5265  gui=NONE       ctermfg=15    ctermbg=8     cterm=NONE
 highlight! StatusLineNC           guifg=#2b3240  guibg=#4a5265  gui=NONE       ctermfg=0     ctermbg=8     cterm=NONE
 highlight! VertSplit              guifg=#4a5265  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=0     cterm=NONE
 highlight! Visual                 guifg=#8c98a7  guibg=NONE     gui=reverse    ctermfg=7     ctermbg=NONE  cterm=reverse
@@ -88,8 +88,8 @@ highlight! PmenuSbar              guifg=#4a5265  guibg=#4a5265  gui=NONE       c
 highlight! Comment                guifg=#4a5265  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
 highlight! Function               guifg=#8c98a7  guibg=NONE     gui=NONE       ctermfg=7     ctermbg=NONE  cterm=NONE
 highlight! SpecialComment         guifg=#4a5265  guibg=NONE     gui=reverse    ctermfg=8     ctermbg=NONE  cterm=reverse
-highlight! Error                  guifg=#a32344  guibg=NONE     gui=reverse    ctermfg=1     ctermbg=NONE  cterm=reverse
-highlight! SpellBad               guifg=#a32344  guibg=NONE     gui=undercurl  ctermfg=1     ctermbg=NONE  cterm=undercurl
+highlight! Error                  guifg=#bc284f  guibg=NONE     gui=reverse    ctermfg=1     ctermbg=NONE  cterm=reverse
+highlight! SpellBad               guifg=#bc284f  guibg=NONE     gui=undercurl  ctermfg=1     ctermbg=NONE  cterm=undercurl
 highlight! SpellLocal             guifg=#4a5265  guibg=NONE     gui=undercurl  ctermfg=8     ctermbg=NONE  cterm=undercurl
 highlight! SpellCap               guifg=#5c8097  guibg=NONE     gui=undercurl  ctermfg=4     ctermbg=NONE  cterm=undercurl
 
@@ -98,6 +98,7 @@ highlight! Todo                   guifg=#ffffff  guibg=NONE     gui=reverse    c
 highlight! String                 guifg=#5c8097  guibg=NONE     gui=NONE       ctermfg=4     ctermbg=NONE  cterm=NONE
 highlight! Search                 guifg=#008097  guibg=NONE     gui=reverse    ctermfg=6     ctermbg=NONE  cterm=reverse
 highlight! Number                 guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
+highlight! ModeMsg                guifg=#88b4ad  guibg=NONE     gui=reverse    ctermfg=2     ctermbg=NONE  cterm=reverse
 
 "TODO
 highlight! DiffAdd                guifg=#c1c9d4  guibg=NONE     gui=reverse    ctermfg=15    ctermbg=NONE  cterm=reverse
@@ -108,7 +109,6 @@ highlight! Underlined             guifg=#008097  guibg=NONE     gui=NONE       c
 highlight! link DiffDelete        Error
 highlight! link ErrorMsg          Error
 highlight! link WildMenu          Visual
-highlight! link ModeMsg           Visual
 highlight! link StorageClass      Normal
 highlight! link htmlItalic        Normal
 highlight! link WarningMsg        Number
