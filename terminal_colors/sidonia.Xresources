@@ -12,8 +12,8 @@
 *.color9:       #a32344
 
 ! green
-*.color2:       #538302
-*.color10:      #538302
+*.color2:       #88b4ad
+*.color10:      #88b4ad
 
 ! yellow
 *.color3:       #ffffff

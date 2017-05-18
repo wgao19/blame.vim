@@ -48,7 +48,7 @@
 "---------------------------------------|-----------------------------------------
 "     Black        #2b3240      0       |      brBlack      #4a5265      8       |
 "     Red          #a32344      1       |      brRed        #a32344      9       |
-"     Green        #538302      2       |      brGreen      #538302      10      |
+"     Green        #88b4ad      2       |      brGreen      #88b4ad      10      |
 "     Yellow       #ffffff      3       |      brYellow     #ffffff      11      |
 "     Blue         #5c8097      4       |      brBlue       #5c8097      12      |
 "     Magenta      #4f426a      5       |      brMagenta    #4f426a      13      |
@@ -96,7 +96,7 @@ highlight! SpellCap               guifg=#5c8097  guibg=NONE     gui=undercurl  c
 highlight! PreProc                guifg=#ffffff  guibg=NONE     gui=NONE       ctermfg=3     ctermbg=NONE  cterm=NONE
 highlight! Todo                   guifg=#ffffff  guibg=NONE     gui=reverse    ctermfg=3     ctermbg=NONE  cterm=reverse
 highlight! String                 guifg=#5c8097  guibg=NONE     gui=NONE       ctermfg=4     ctermbg=NONE  cterm=NONE
-highlight! Search                 guifg=#5c8097  guibg=NONE     gui=reverse    ctermfg=4     ctermbg=NONE  cterm=reverse
+highlight! Search                 guifg=#008097  guibg=NONE     gui=reverse    ctermfg=6     ctermbg=NONE  cterm=reverse
 highlight! Number                 guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
 
 "TODO
