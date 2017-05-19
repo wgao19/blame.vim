@@ -85,7 +85,6 @@ highlight! VertSplit              guifg=#4a5265  guibg=NONE     gui=NONE       c
 highlight! Visual                 guifg=#8c98a7  guibg=NONE     gui=reverse    ctermfg=7     ctermbg=NONE  cterm=reverse
 highlight! Question               guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
 highlight! PmenuSbar              guifg=#4a5265  guibg=#4a5265  gui=NONE       ctermfg=8     ctermbg=8     cterm=NONE
-highlight! ModeMsg                guifg=#88b4ad  guibg=NONE     gui=reverse    ctermfg=2     ctermbg=NONE  cterm=reverse
 
 highlight! Normal                 guifg=#c1c9d4  guibg=#2b3240  gui=NONE       ctermfg=15    ctermbg=0     cterm=NONE
 highlight! PreProc                guifg=#ffffff  guibg=NONE     gui=NONE       ctermfg=3     ctermbg=NONE  cterm=NONE
@@ -137,6 +136,7 @@ highlight! link Folded            LineNr
 highlight! link DiffText          DiffAdd
 highlight! link PmenuThumb        PmenuSbar
 highlight! link ColorColumn       CursorLine
+highlight! link ModeMsg           TabLineSel
 highlight! link CursorLineNr      TabLineSel
 highlight! link MatchParen        TabLineSel
 highlight! link PmenuSel          StatusLine
