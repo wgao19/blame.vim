@@ -87,7 +87,8 @@ highlight! Question               guifg=#008097  guibg=NONE     gui=NONE       c
 highlight! PmenuSbar              guifg=#4a5265  guibg=#4a5265  gui=NONE       ctermfg=8     ctermbg=8     cterm=NONE
 
 highlight! Normal                 guifg=#c1c9d4  guibg=#2b3240  gui=NONE       ctermfg=15    ctermbg=0     cterm=NONE
-highlight! PreProc                guifg=#ffffff  guibg=NONE     gui=NONE       ctermfg=3     ctermbg=NONE  cterm=NONE
+highlight! PreProc                guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
+highlight! Special                guifg=#ffffff  guibg=NONE     gui=NONE       ctermfg=3     ctermbg=NONE  cterm=NONE
 highlight! Todo                   guifg=#ffffff  guibg=NONE     gui=reverse    ctermfg=3     ctermbg=NONE  cterm=reverse
 highlight! String                 guifg=#5c8097  guibg=NONE     gui=NONE       ctermfg=4     ctermbg=NONE  cterm=NONE
 highlight! Search                 guifg=#008097  guibg=NONE     gui=reverse    ctermfg=6     ctermbg=NONE  cterm=reverse
@@ -122,7 +123,6 @@ highlight! link cssIdentifier     PreProc
 highlight! link cssClassName      PreProc
 highlight! link Type              Function
 highlight! link Identifier        Function
-highlight! link Special           Function
 highlight! link Statement         Function
 highlight! link Constant          Function
 highlight! link Operator          Function
