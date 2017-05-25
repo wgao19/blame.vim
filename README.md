@@ -33,5 +33,5 @@ pre-release version [here](https://github.com/AlessandroYorba/Sidonia/tree/night
 [Alduin](https://github.com/AlessandroYorba/Alduin)<br>
 [Despacio](https://github.com/AlessandroYorba/Despacio)<br>
 [Sierra](https://github.com/AlessandroYorba/Sierra)<br>
-[Monrovia](https://github.com/AlessandroYorba/Monrovia)
+[Monrovia](https://github.com/AlessandroYorba/Monrovia)<br>
 [Arcadia](https://github.com/AlessandroYorba/Arcadia)
