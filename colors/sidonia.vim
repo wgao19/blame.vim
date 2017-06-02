@@ -73,71 +73,85 @@ endif
 
 let g:colors_name="sidonia"
 
-highlight! LineNr                 guifg=#4a5265  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
-highlight! TabLine                guifg=#2b3240  guibg=#4a5265  gui=NONE       ctermfg=0     ctermbg=8     cterm=NONE
-highlight! TabLineSel             guifg=#2b3240  guibg=#8c98a7  gui=NONE       ctermfg=0     ctermbg=7     cterm=NONE
-highlight! TabLineFill            guifg=#4a5265  guibg=NONE     gui=underline  ctermfg=8     ctermbg=NONE  cterm=underline
-highlight! CursorLine             guifg=NONE     guibg=#2D3443  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
-highlight! CursorColumn           guifg=NONE     guibg=#2b3240  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
-highlight! StatusLine             guifg=#c1c9d4  guibg=#4a5265  gui=NONE       ctermfg=15    ctermbg=8     cterm=NONE
-highlight! StatusLineNC           guifg=#2b3240  guibg=#4a5265  gui=NONE       ctermfg=0     ctermbg=8     cterm=NONE
-highlight! VertSplit              guifg=#4a5265  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=0     cterm=NONE
-highlight! Visual                 guifg=#8c98a7  guibg=NONE     gui=reverse    ctermfg=7     ctermbg=NONE  cterm=reverse
-highlight! Question               guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
-highlight! PmenuSbar              guifg=#4a5265  guibg=#4a5265  gui=NONE       ctermfg=8     ctermbg=8     cterm=NONE
-
 highlight! Normal                 guifg=#c1c9d4  guibg=#2b3240  gui=NONE       ctermfg=15    ctermbg=0     cterm=NONE
+highlight! StorageClass           guifg=#c1c9d4  guibg=#2b3240  gui=NONE       ctermfg=15    ctermbg=0     cterm=NONE
+highlight! htmlItalic             guifg=#c1c9d4  guibg=#2b3240  gui=NONE       ctermfg=15    ctermbg=0     cterm=NONE
+
+highlight! LineNr                 guifg=#4a5265  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
+highlight! Folded                 guifg=#4a5265  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
+
+highlight! TabLineSel             guifg=#2b3240  guibg=#8c98a7  gui=NONE       ctermfg=0     ctermbg=7     cterm=NONE
+highlight! ModeMsg                guifg=#2b3240  guibg=#8c98a7  gui=NONE       ctermfg=0     ctermbg=7     cterm=NONE
+highlight! CursorLineNr           guifg=#2b3240  guibg=#8c98a7  gui=NONE       ctermfg=0     ctermbg=7     cterm=NONE
+highlight! MatchParen             guifg=#2b3240  guibg=#8c98a7  gui=NONE       ctermfg=0     ctermbg=7     cterm=NONE
+
+highlight! CursorLine             guifg=NONE     guibg=#2D3443  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
+highlight! ColorColumn            guifg=NONE     guibg=#2D3443  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
+
+highlight! Error                  guifg=#bc284f  guibg=NONE     gui=reverse    ctermfg=1     ctermbg=NONE  cterm=reverse
+highlight! ErrorMsg               guifg=#bc284f  guibg=NONE     gui=reverse    ctermfg=1     ctermbg=NONE  cterm=reverse
+
+highlight! StatusLine             guifg=#c1c9d4  guibg=#4a5265  gui=NONE       ctermfg=15    ctermbg=8     cterm=NONE
+highlight! PmenuSel               guifg=#c1c9d4  guibg=#4a5265  gui=NONE       ctermfg=15    ctermbg=8     cterm=NONE
+
+highlight! StatusLineNC           guifg=#2b3240  guibg=#4a5265  gui=NONE       ctermfg=0     ctermbg=8     cterm=NONE
+highlight! Pmenu                  guifg=#2b3240  guibg=#4a5265  gui=NONE       ctermfg=0     ctermbg=8     cterm=NONE
+highlight! TabLine                guifg=#2b3240  guibg=#4a5265  gui=NONE       ctermfg=0     ctermbg=8     cterm=NONE
+
+highlight! Visual                 guifg=#8c98a7  guibg=NONE     gui=reverse    ctermfg=7     ctermbg=NONE  cterm=reverse
+highlight! WildMenu               guifg=#8c98a7  guibg=NONE     gui=reverse    ctermfg=7     ctermbg=NONE  cterm=reverse
+
+highlight! Question               guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
+highlight! markdownUrl            guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
+
+highlight! PmenuSbar              guifg=#4a5265  guibg=#4a5265  gui=NONE       ctermfg=8     ctermbg=8     cterm=NONE
+highlight! PmenuThumb             guifg=#4a5265  guibg=#4a5265  gui=NONE       ctermfg=8     ctermbg=8     cterm=NONE
+
 highlight! PreProc                guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
+highlight! Title                  guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
+highlight! FoldColumn             guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
+highlight! phpVarSelector         guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
+highlight! cssIdentifier          guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
+highlight! cssClassName           guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
+
 highlight! Special                guifg=#ffffff  guibg=NONE     gui=NONE       ctermfg=3     ctermbg=NONE  cterm=NONE
 highlight! Todo                   guifg=#ffffff  guibg=NONE     gui=reverse    ctermfg=3     ctermbg=NONE  cterm=reverse
+
 highlight! String                 guifg=#5c8097  guibg=NONE     gui=NONE       ctermfg=4     ctermbg=NONE  cterm=NONE
-highlight! Search                 guifg=#008097  guibg=NONE     gui=reverse    ctermfg=6     ctermbg=NONE  cterm=reverse
+highlight! markdownLinkText       guifg=#5c8097  guibg=NONE     gui=NONE       ctermfg=4     ctermbg=NONE  cterm=NONE
+highlight! Directory              guifg=#5c8097  guibg=NONE     gui=NONE       ctermfg=4     ctermbg=NONE  cterm=NONE
+
 highlight! Number                 guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
+highlight! WarningMsg             guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
+highlight! MoreMsg                guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
+highlight! SignColumn             guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
 highlight! Underlined             guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
+
 highlight! Comment                guifg=#4a5265  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
+highlight! NonText                guifg=#4a5265  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
+highlight! SpecialKey             guifg=#4a5265  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
+
 highlight! Function               guifg=#8c98a7  guibg=NONE     gui=NONE       ctermfg=7     ctermbg=NONE  cterm=NONE
+highlight! Identifier             guifg=#8c98a7  guibg=NONE     gui=NONE       ctermfg=7     ctermbg=NONE  cterm=NONE
+highlight! Statement              guifg=#8c98a7  guibg=NONE     gui=NONE       ctermfg=7     ctermbg=NONE  cterm=NONE
+highlight! Constant               guifg=#8c98a7  guibg=NONE     gui=NONE       ctermfg=7     ctermbg=NONE  cterm=NONE
+highlight! Operator               guifg=#8c98a7  guibg=NONE     gui=NONE       ctermfg=7     ctermbg=NONE  cterm=NONE
+highlight! Type                   guifg=#8c98a7  guibg=NONE     gui=NONE       ctermfg=7     ctermbg=NONE  cterm=NONE
+
 highlight! SpecialComment         guifg=#4a5265  guibg=NONE     gui=reverse    ctermfg=8     ctermbg=NONE  cterm=reverse
-highlight! Error                  guifg=#bc284f  guibg=NONE     gui=reverse    ctermfg=1     ctermbg=NONE  cterm=reverse
+highlight! VimCommentTitle        guifg=#4a5265  guibg=NONE     gui=reverse    ctermfg=8     ctermbg=NONE  cterm=reverse
+highlight! TabLine                guifg=#2b3240  guibg=#4a5265  gui=NONE       ctermfg=0     ctermbg=8     cterm=NONE
+highlight! TabLineFill            guifg=#4a5265  guibg=NONE     gui=underline  ctermfg=8     ctermbg=NONE  cterm=underline
+highlight! Search                 guifg=#008097  guibg=NONE     gui=reverse    ctermfg=6     ctermbg=NONE  cterm=reverse
+highlight! CursorColumn           guifg=NONE     guibg=#2b3240  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
+highlight! VertSplit              guifg=#4a5265  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=0     cterm=NONE
+
 highlight! SpellBad               guifg=#bc284f  guibg=NONE     gui=undercurl  ctermfg=1     ctermbg=NONE  cterm=undercurl
 highlight! SpellLocal             guifg=#4a5265  guibg=NONE     gui=undercurl  ctermfg=8     ctermbg=NONE  cterm=undercurl
+highlight! SpellRare              guifg=#4a5265  guibg=NONE     gui=undercurl  ctermfg=8     ctermbg=NONE  cterm=undercurl
 highlight! SpellCap               guifg=#5c8097  guibg=NONE     gui=undercurl  ctermfg=4     ctermbg=NONE  cterm=undercurl
 
-"TODO
 highlight! DiffAdd                guifg=#c1c9d4  guibg=NONE     gui=reverse    ctermfg=15    ctermbg=NONE  cterm=reverse
+highlight! DiffText               guifg=#c1c9d4  guibg=NONE     gui=reverse    ctermfg=15    ctermbg=NONE  cterm=reverse
 highlight! DiffChange             guifg=#4f426a  guibg=NONE     gui=reverse    ctermfg=5     ctermbg=NONE  cterm=reverse
-
-highlight! link DiffDelete        Error
-highlight! link ErrorMsg          Error
-highlight! link WildMenu          Visual
-highlight! link StorageClass      Normal
-highlight! link htmlItalic        Normal
-highlight! link WarningMsg        Number
-highlight! link MoreMsg           Number
-highlight! link SignColumn        Number
-highlight! link markdownLinkText  String
-highlight! link Directory         String
-highlight! link Title             PreProc
-highlight! link FoldColumn        PreProc
-highlight! link phpVarSelector    PreProc
-highlight! link cssIdentifier     PreProc
-highlight! link cssClassName      PreProc
-highlight! link Type              Function
-highlight! link Identifier        Function
-highlight! link Statement         Function
-highlight! link Constant          Function
-highlight! link Operator          Function
-highlight! link markdownUrl       Question
-highlight! link NonText           Comment
-highlight! link SpecialKey        Comment
-highlight! link Pmenu             StatusLineNC
-highlight! link TabLine           StatusLineNC
-highlight! link VimCommentTitle   SpecialComment
-highlight! link Folded            LineNr
-highlight! link DiffText          DiffAdd
-highlight! link PmenuThumb        PmenuSbar
-highlight! link ColorColumn       CursorLine
-highlight! link ModeMsg           TabLineSel
-highlight! link CursorLineNr      TabLineSel
-highlight! link MatchParen        TabLineSel
-highlight! link PmenuSel          StatusLine
-highlight! link SpellRare         SpellLocal
+highlight! DiffDelete             guifg=#bc284f  guibg=NONE     gui=reverse    ctermfg=1     ctermbg=NONE  cterm=reverse
