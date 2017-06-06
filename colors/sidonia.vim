@@ -48,7 +48,7 @@
 "---------------------------------------|-----------------------------------------
 "     Black        #33434f      0       |      brBlack      #495f71      8       |
 "     Red          #e64976      1       |      brRed        #e64976      9       |
-"     Green        #2e9783      2       |      brGreen      #2e9783      10      |
+"     Green        #507436      2       |      brGreen      #507436      10      |
 "     Yellow       #ffffff      3       |      brYellow     #ffffff      11      |
 "     Blue         #8fb4c4      4       |      brBlue       #8fb4c4      12      |
 "     Magenta      #896492      5       |      brMagenta    #896492      13      |
@@ -112,15 +112,15 @@ highlight! String                 guifg=#008097  guibg=NONE     gui=NONE       c
 highlight! Special                guifg=#ffffff  guibg=NONE     gui=NONE       ctermfg=3     ctermbg=NONE  cterm=NONE
 highlight! Todo                   guifg=#ffffff  guibg=NONE     gui=reverse    ctermfg=3     ctermbg=NONE  cterm=reverse
 
-highlight! PreProc                guifg=#2e9783  guibg=NONE     gui=NONE       ctermfg=2     ctermbg=NONE  cterm=NONE
-highlight! Title                  guifg=#2e9783  guibg=NONE     gui=NONE       ctermfg=2     ctermbg=NONE  cterm=NONE
-highlight! FoldColumn             guifg=#2e9783  guibg=NONE     gui=NONE       ctermfg=2     ctermbg=NONE  cterm=NONE
-highlight! phpVarSelector         guifg=#2e9783  guibg=NONE     gui=NONE       ctermfg=2     ctermbg=NONE  cterm=NONE
-highlight! cssClassName           guifg=#2e9783  guibg=NONE     gui=NONE       ctermfg=2     ctermbg=NONE  cterm=NONE
-highlight! cssIdentifier          guifg=#2e9783  guibg=NONE     gui=NONE       ctermfg=2     ctermbg=NONE  cterm=NONE
-highlight! markdownLinkText       guifg=#2e9783  guibg=NONE     gui=NONE       ctermfg=2     ctermbg=NONE  cterm=NONE
-highlight! Directory              guifg=#2e9783  guibg=NONE     gui=NONE       ctermfg=2     ctermbg=NONE  cterm=NONE
-highlight! Number                 guifg=#2e9783  guibg=NONE     gui=NONE       ctermfg=2     ctermbg=NONE  cterm=NONE
+highlight! PreProc                guifg=#507436  guibg=NONE     gui=NONE       ctermfg=2     ctermbg=NONE  cterm=NONE
+highlight! Title                  guifg=#507436  guibg=NONE     gui=NONE       ctermfg=2     ctermbg=NONE  cterm=NONE
+highlight! FoldColumn             guifg=#507436  guibg=NONE     gui=NONE       ctermfg=2     ctermbg=NONE  cterm=NONE
+highlight! phpVarSelector         guifg=#507436  guibg=NONE     gui=NONE       ctermfg=2     ctermbg=NONE  cterm=NONE
+highlight! cssClassName           guifg=#507436  guibg=NONE     gui=NONE       ctermfg=2     ctermbg=NONE  cterm=NONE
+highlight! cssIdentifier          guifg=#507436  guibg=NONE     gui=NONE       ctermfg=2     ctermbg=NONE  cterm=NONE
+highlight! markdownLinkText       guifg=#507436  guibg=NONE     gui=NONE       ctermfg=2     ctermbg=NONE  cterm=NONE
+highlight! Directory              guifg=#507436  guibg=NONE     gui=NONE       ctermfg=2     ctermbg=NONE  cterm=NONE
+highlight! Number                 guifg=#507436  guibg=NONE     gui=NONE       ctermfg=2     ctermbg=NONE  cterm=NONE
 
 
 highlight! WarningMsg             guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
