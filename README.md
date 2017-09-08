@@ -6,27 +6,17 @@
 ###### For 24 Bit Terminals
 ```VimL
 set termguicolors
-colorscheme sidonia
+colorscheme blame
 ```
 
 ###### For GUI
 ```VimL
-colorscheme sidonia
+colorscheme blame
 ```
-
-###### For 8/16/256 Terminals ( Use Matching Terminal Xresources or iTerm )
-```VimL
-set t_Co=16
-colorscheme sidonia
-```
-
-:crescent_moon: Nightly Build
-----------------------------
-pre-release version [here](https://github.com/AlessandroYorba/Sidonia/tree/nightly)
 
 :octocat: Special Thanks
 -----------------
-[mreinhardt for UI inspiration](https://github.com/mreinhardt)
+[based on](https://github.com/tpozzi/Sidonia)
 
 :octopus: Moar Colorschemes
 -------
