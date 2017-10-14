@@ -63,7 +63,7 @@
 set background=dark
 
 highlight clear
-if exists("syntax_on")
+if exists('syntax_on')
     syntax reset
 endif
 
@@ -71,7 +71,7 @@ endif
 "  SIDONIA HIGHLIGHTING:
 "=======================================================================================================================
 
-let g:colors_name="sidonia"
+let g:colors_name = 'blame'
 
 highlight! Normal                 guifg=#c1c9d4  guibg=#2b3240  gui=NONE       ctermfg=15    ctermbg=0     cterm=NONE
 highlight! StorageClass           guifg=#c1c9d4  guibg=#2b3240  gui=NONE       ctermfg=15    ctermbg=0     cterm=NONE
@@ -156,21 +156,21 @@ highlight! DiffText               guifg=#c1c9d4  guibg=NONE     gui=reverse    c
 highlight! DiffChange             guifg=#4f426a  guibg=NONE     gui=reverse    ctermfg=5     ctermbg=NONE  cterm=reverse
 highlight! DiffDelete             guifg=#bc284f  guibg=NONE     gui=reverse    ctermfg=1     ctermbg=NONE  cterm=reverse
 
-let g:terminal_color_foreground = "#c1c9d4"
-let g:terminal_color_background = "#2b3240"
-let g:terminal_color_0          = "#2b3240"
-let g:terminal_color_1          = "#bc284f"
-let g:terminal_color_2          = "#88b4ad"
-let g:terminal_color_3          = "#ffffff"
-let g:terminal_color_4          = "#5c8097"
-let g:terminal_color_5          = "#4f426a"
-let g:terminal_color_6          = "#008097"
-let g:terminal_color_7          = "#8c98a7"
-let g:terminal_color_8          = "#4a5265"
-let g:terminal_color_9          = "#bc284f"
-let g:terminal_color_10         = "#88b4ad"
-let g:terminal_color_11         = "#ffffff"
-let g:terminal_color_12         = "#5c8097"
-let g:terminal_color_13         = "#4f426a"
-let g:terminal_color_14         = "#008097"
-let g:terminal_color_15         = "#c1c9d4"
+let g:terminal_color_foreground = '#c1c9d4'
+let g:terminal_color_background = '#2b3240'
+let g:terminal_color_0          = '#2b3240'
+let g:terminal_color_1          = '#bc284f'
+let g:terminal_color_2          = '#88b4ad'
+let g:terminal_color_3          = '#ffffff'
+let g:terminal_color_4          = '#5c8097'
+let g:terminal_color_5          = '#4f426a'
+let g:terminal_color_6          = '#008097'
+let g:terminal_color_7          = '#8c98a7'
+let g:terminal_color_8          = '#4a5265'
+let g:terminal_color_9          = '#bc284f'
+let g:terminal_color_10         = '#88b4ad'
+let g:terminal_color_11         = '#ffffff'
+let g:terminal_color_12         = '#5c8097'
+let g:terminal_color_13         = '#4f426a'
+let g:terminal_color_14         = '#008097'
+let g:terminal_color_15         = '#c1c9d4'
