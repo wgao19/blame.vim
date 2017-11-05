@@ -172,3 +172,35 @@ let g:terminal_color_12         = '#5c8097'
 let g:terminal_color_13         = '#4f426a'
 let g:terminal_color_14         = '#008097'
 let g:terminal_color_15         = '#c1c9d4'
+
+"=======================================================================================================================
+"  BLAME STYLEFIXES:
+"=======================================================================================================================
+
+" Elixir
+hi link elixirDefine                 Keyword
+hi link elixirPrivateDefine          Keyword
+hi link elixirModuleDefine           Keyword
+hi link elixirProtocolDefine         Keyword
+hi link elixirImplDefine             Keyword
+hi link elixirRecordDefine           Keyword
+hi link elixirPrivateRecordDefine    Keyword
+hi link elixirMacroDefine            Keyword
+hi link elixirPrivateMacroDefine     Keyword
+hi link elixirDelegateDefine         Keyword
+hi link elixirOverridableDefine      Keyword
+hi link elixirExceptionDefine        Keyword
+hi link elixirCallbackDefine         Keyword
+hi link elixirStructDefine           Keyword
+hi link elixirExUnitMacro            Keyword
+
+hi link elixirAtom                   String
+hi link elixirBoolean                Define
+
+hi link elixirFunctionDeclaration    Define
+
+" HTML
+hi htmlBold cterm=bold gui=bold
+
+" Javascript
+hi link jsStorageClass Keyword
