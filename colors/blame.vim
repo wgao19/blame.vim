@@ -8,7 +8,8 @@
 "
 " A Vim colorscheme
 " Author:       Alessandro Yorba
-" Script URL:   https://github.com/AlessandroYorba/Sidonia
+" Maintainer:   Łukasz Niemier
+" Script URL:   https://github.com/hauleth/blame.vim
 "
 " Copyright (c) 2017 Alessandro Yorba
 "
