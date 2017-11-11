@@ -8,10 +8,10 @@
 "
 " A Vim colorscheme
 " Author:       Alessandro Yorba
-" Maintainer:   Łukasz Niemier
+" Maintainer:   Hauleth <lukasz@niemier.pl>
 " Script URL:   https://github.com/hauleth/blame.vim
 "
-" Copyright (c) 2017 Alessandro Yorba
+" Copyright (c) 2017 Alessandro Yorba & Hauleth
 "
 " Permission is hereby granted, free of charge, to any person obtaining a copy
 " of this software and associated documentation files (the "Software"), to deal
@@ -55,6 +55,8 @@
 "     White        #8c98a7      7       |      brWhite      #c1c9d4      15      |
 "---------------------------------------|-----------------------------------------
 
+scriptencoding utf-8
+
 "=================================================================================
 " SETUP:
 "=================================================================================
@@ -74,7 +76,6 @@ let g:colors_name = 'blame'
 
 highlight! Normal                 guifg=#c1c9d4  guibg=#2b3240  gui=NONE       ctermfg=15    ctermbg=0     cterm=NONE
 highlight! StorageClass           guifg=#c1c9d4  guibg=#2b3240  gui=NONE       ctermfg=15    ctermbg=0     cterm=NONE
-highlight! htmlItalic             guifg=#c1c9d4  guibg=#2b3240  gui=NONE       ctermfg=15    ctermbg=0     cterm=NONE
 
 highlight! LineNr                 guifg=#4a5265  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
 highlight! Folded                 guifg=#4a5265  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
@@ -109,15 +110,11 @@ highlight! PmenuThumb             guifg=#4a5265  guibg=#4a5265  gui=NONE       c
 highlight! PreProc                guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
 highlight! Title                  guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
 highlight! FoldColumn             guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
-highlight! phpVarSelector         guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
-highlight! cssIdentifier          guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
-highlight! cssClassName           guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
 
 highlight! Special                guifg=#ffffff  guibg=NONE     gui=NONE       ctermfg=3     ctermbg=NONE  cterm=NONE
 highlight! Todo                   guifg=#ffffff  guibg=NONE     gui=reverse    ctermfg=3     ctermbg=NONE  cterm=reverse
 
 highlight! String                 guifg=#5c8097  guibg=NONE     gui=NONE       ctermfg=4     ctermbg=NONE  cterm=NONE
-highlight! markdownLinkText       guifg=#5c8097  guibg=NONE     gui=NONE       ctermfg=4     ctermbg=NONE  cterm=NONE
 highlight! Directory              guifg=#5c8097  guibg=NONE     gui=NONE       ctermfg=4     ctermbg=NONE  cterm=NONE
 
 highlight! Number                 guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
@@ -179,29 +176,40 @@ let g:terminal_color_15         = '#c1c9d4'
 "=======================================================================================================================
 
 " Elixir
-hi link elixirDefine                 Keyword
-hi link elixirPrivateDefine          Keyword
-hi link elixirModuleDefine           Keyword
-hi link elixirProtocolDefine         Keyword
-hi link elixirImplDefine             Keyword
-hi link elixirRecordDefine           Keyword
-hi link elixirPrivateRecordDefine    Keyword
-hi link elixirMacroDefine            Keyword
-hi link elixirPrivateMacroDefine     Keyword
-hi link elixirDelegateDefine         Keyword
-hi link elixirOverridableDefine      Keyword
-hi link elixirExceptionDefine        Keyword
-hi link elixirCallbackDefine         Keyword
-hi link elixirStructDefine           Keyword
-hi link elixirExUnitMacro            Keyword
+highlight link elixirDefine                 Keyword
+highlight link elixirPrivateDefine          Keyword
+highlight link elixirModuleDefine           Keyword
+highlight link elixirProtocolDefine         Keyword
+highlight link elixirImplDefine             Keyword
+highlight link elixirRecordDefine           Keyword
+highlight link elixirPrivateRecordDefine    Keyword
+highlight link elixirMacroDefine            Keyword
+highlight link elixirPrivateMacroDefine     Keyword
+highlight link elixirDelegateDefine         Keyword
+highlight link elixirOverridableDefine      Keyword
+highlight link elixirExceptionDefine        Keyword
+highlight link elixirCallbackDefine         Keyword
+highlight link elixirStructDefine           Keyword
+highlight link elixirExUnitMacro            Keyword
 
-hi link elixirAtom                   String
-hi link elixirBoolean                Define
+highlight link elixirAtom                   String
+highlight link elixirBoolean                Define
 
-hi link elixirFunctionDeclaration    Define
+highlight link elixirFunctionDeclaration    Define
 
 " HTML
-hi htmlBold cterm=bold gui=bold
+highlight link htmlBold Normal
+highlight link htmlItalic Normal
 
 " Javascript
-hi link jsStorageClass Keyword
+highlight link jsStorageClass Keyword
+
+" Markdown
+highlight link markdownLinkText String
+
+" PHP
+highlight link phpVarSelector PreProc
+
+" CSS
+highlight link cssIdentifier PreProc
+highlight link cssClassName  PreProc
