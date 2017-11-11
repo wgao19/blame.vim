@@ -55,8 +55,6 @@
 "     White        #8c98a7      7       |      brWhite      #c1c9d4      15      |
 "---------------------------------------|-----------------------------------------
 
-scriptencoding utf-8
-
 "=================================================================================
 " SETUP:
 "=================================================================================
@@ -83,7 +81,6 @@ highlight! Folded                 guifg=#4a5265  guibg=NONE     gui=NONE       c
 highlight! TabLineSel             guifg=#2b3240  guibg=#8c98a7  gui=NONE       ctermfg=0     ctermbg=7     cterm=NONE
 highlight! ModeMsg                guifg=#2b3240  guibg=#8c98a7  gui=NONE       ctermfg=0     ctermbg=7     cterm=NONE
 highlight! CursorLineNr           guifg=#2b3240  guibg=#8c98a7  gui=NONE       ctermfg=0     ctermbg=7     cterm=NONE
-highlight! MatchParen             guifg=#2b3240  guibg=#8c98a7  gui=NONE       ctermfg=0     ctermbg=7     cterm=NONE
 
 highlight! CursorLine             guifg=NONE     guibg=#2D3443  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
 highlight! ColorColumn            guifg=NONE     guibg=#2D3443  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
@@ -102,7 +99,6 @@ highlight! Visual                 guifg=#8c98a7  guibg=NONE     gui=reverse    c
 highlight! WildMenu               guifg=#8c98a7  guibg=NONE     gui=reverse    ctermfg=7     ctermbg=NONE  cterm=reverse
 
 highlight! Question               guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
-highlight! markdownUrl            guifg=#008097  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
 
 highlight! PmenuSbar              guifg=#4a5265  guibg=#4a5265  gui=NONE       ctermfg=8     ctermbg=8     cterm=NONE
 highlight! PmenuThumb             guifg=#4a5265  guibg=#4a5265  gui=NONE       ctermfg=8     ctermbg=8     cterm=NONE
@@ -113,6 +109,7 @@ highlight! FoldColumn             guifg=#008097  guibg=NONE     gui=NONE       c
 
 highlight! Special                guifg=#ffffff  guibg=NONE     gui=NONE       ctermfg=3     ctermbg=NONE  cterm=NONE
 highlight! Todo                   guifg=#ffffff  guibg=NONE     gui=reverse    ctermfg=3     ctermbg=NONE  cterm=reverse
+highlight! MatchParen             guifg=#ffffff  guibg=NONE     gui=underline  ctermfg=3     ctermbg=NONE  cterm=underline
 
 highlight! String                 guifg=#5c8097  guibg=NONE     gui=NONE       ctermfg=4     ctermbg=NONE  cterm=NONE
 highlight! Directory              guifg=#5c8097  guibg=NONE     gui=NONE       ctermfg=4     ctermbg=NONE  cterm=NONE
@@ -206,6 +203,7 @@ highlight link jsStorageClass Keyword
 
 " Markdown
 highlight link markdownLinkText String
+highlight link markdownUrl Question
 
 " PHP
 highlight link phpVarSelector PreProc
