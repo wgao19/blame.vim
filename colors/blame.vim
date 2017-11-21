@@ -8,8 +8,8 @@
 "
 " A Vim colorscheme
 " Author:       Alessandro Yorba
-" Maintainer:   Hauleth <lukasz@niemier.pl>
-" Script URL:   https://github.com/hauleth/blame.vim
+# Forked By:    Wei Gao (for personal use)
+" Original Script URL:   https://github.com/hauleth/blame.vim
 "
 " Copyright (c) 2017 Alessandro Yorba & Hauleth
 "
@@ -35,7 +35,7 @@
 " BASIC TERMINAL COLORS:
 "=================================================================================
 "     Foreground   #c1c9d4              |      Selection     #8c98a7             |
-"     Background   #2b3240              |      Selected Text #2b3240             |
+"     Background   #131f37              |      Selected Text #131f37             |
 "     CursorColor  #ffffff              |                                        |
 "     Bold         #ffffff              |
 "     Links        #bc284f              |
@@ -45,7 +45,7 @@
 "---------------------------------------|-----------------------------------------
 "     NORMAL       Hex          xterm   |      BRIGHT       Hex          xterm   |
 "---------------------------------------|-----------------------------------------
-"     Black        #2b3240      0       |      brBlack      #4a5265      8       |
+"     Black        #131f37      0       |      brBlack      #4a5265      8       |
 "     Red          #bc284f      1       |      brRed        #bc284f      9       |
 "     Green        #88b4ad      2       |      brGreen      #88b4ad      10      |
 "     Yellow       #ffffff      3       |      brYellow     #ffffff      11      |
@@ -72,15 +72,15 @@ endif
 
 let g:colors_name = 'blame'
 
-highlight! Normal                 guifg=#c1c9d4  guibg=#2b3240  gui=NONE       ctermfg=15    ctermbg=0     cterm=NONE
-highlight! StorageClass           guifg=#c1c9d4  guibg=#2b3240  gui=NONE       ctermfg=15    ctermbg=0     cterm=NONE
+highlight! Normal                 guifg=#c1c9d4  guibg=#131f37  gui=NONE       ctermfg=15    ctermbg=0     cterm=NONE
+highlight! StorageClass           guifg=#c1c9d4  guibg=#131f37  gui=NONE       ctermfg=15    ctermbg=0     cterm=NONE
 
 highlight! LineNr                 guifg=#4a5265  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
 highlight! Folded                 guifg=#4a5265  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
 
-highlight! TabLineSel             guifg=#2b3240  guibg=#8c98a7  gui=NONE       ctermfg=0     ctermbg=7     cterm=NONE
-highlight! ModeMsg                guifg=#2b3240  guibg=#8c98a7  gui=NONE       ctermfg=0     ctermbg=7     cterm=NONE
-highlight! CursorLineNr           guifg=#2b3240  guibg=#8c98a7  gui=NONE       ctermfg=0     ctermbg=7     cterm=NONE
+highlight! TabLineSel             guifg=#131f37  guibg=#8c98a7  gui=NONE       ctermfg=0     ctermbg=7     cterm=NONE
+highlight! ModeMsg                guifg=#131f37  guibg=#8c98a7  gui=NONE       ctermfg=0     ctermbg=7     cterm=NONE
+highlight! CursorLineNr           guifg=#131f37  guibg=#8c98a7  gui=NONE       ctermfg=0     ctermbg=7     cterm=NONE
 
 highlight! CursorLine             guifg=NONE     guibg=#2D3443  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
 highlight! ColorColumn            guifg=NONE     guibg=#2D3443  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
@@ -91,9 +91,9 @@ highlight! ErrorMsg               guifg=#bc284f  guibg=NONE     gui=reverse    c
 highlight! StatusLine             guifg=#c1c9d4  guibg=#4a5265  gui=NONE       ctermfg=15    ctermbg=8     cterm=NONE
 highlight! PmenuSel               guifg=#c1c9d4  guibg=#4a5265  gui=NONE       ctermfg=15    ctermbg=8     cterm=NONE
 
-highlight! StatusLineNC           guifg=#2b3240  guibg=#4a5265  gui=NONE       ctermfg=0     ctermbg=8     cterm=NONE
-highlight! Pmenu                  guifg=#2b3240  guibg=#4a5265  gui=NONE       ctermfg=0     ctermbg=8     cterm=NONE
-highlight! TabLine                guifg=#2b3240  guibg=#4a5265  gui=NONE       ctermfg=0     ctermbg=8     cterm=NONE
+highlight! StatusLineNC           guifg=#131f37  guibg=#4a5265  gui=NONE       ctermfg=0     ctermbg=8     cterm=NONE
+highlight! Pmenu                  guifg=#131f37  guibg=#4a5265  gui=NONE       ctermfg=0     ctermbg=8     cterm=NONE
+highlight! TabLine                guifg=#131f37  guibg=#4a5265  gui=NONE       ctermfg=0     ctermbg=8     cterm=NONE
 
 highlight! Visual                 guifg=#8c98a7  guibg=NONE     gui=reverse    ctermfg=7     ctermbg=NONE  cterm=reverse
 highlight! WildMenu               guifg=#8c98a7  guibg=NONE     gui=reverse    ctermfg=7     ctermbg=NONE  cterm=reverse
@@ -133,10 +133,10 @@ highlight! Type                   guifg=#8c98a7  guibg=NONE     gui=NONE       c
 
 highlight! SpecialComment         guifg=#4a5265  guibg=NONE     gui=reverse    ctermfg=8     ctermbg=NONE  cterm=reverse
 highlight! VimCommentTitle        guifg=#4a5265  guibg=NONE     gui=reverse    ctermfg=8     ctermbg=NONE  cterm=reverse
-highlight! TabLine                guifg=#2b3240  guibg=#4a5265  gui=NONE       ctermfg=0     ctermbg=8     cterm=NONE
+highlight! TabLine                guifg=#131f37  guibg=#4a5265  gui=NONE       ctermfg=0     ctermbg=8     cterm=NONE
 highlight! TabLineFill            guifg=#4a5265  guibg=NONE     gui=underline  ctermfg=8     ctermbg=NONE  cterm=underline
 highlight! Search                 guifg=#008097  guibg=NONE     gui=reverse    ctermfg=6     ctermbg=NONE  cterm=reverse
-highlight! CursorColumn           guifg=NONE     guibg=#2b3240  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
+highlight! CursorColumn           guifg=NONE     guibg=#131f37  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
 highlight! VertSplit              guifg=#4a5265  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=0     cterm=NONE
 
 highlight! SpellBad               guifg=#bc284f  guibg=NONE     gui=undercurl  ctermfg=1     ctermbg=NONE  cterm=undercurl
@@ -150,8 +150,8 @@ highlight! DiffChange             guifg=#4f426a  guibg=NONE     gui=reverse    c
 highlight! DiffDelete             guifg=#bc284f  guibg=NONE     gui=reverse    ctermfg=1     ctermbg=NONE  cterm=reverse
 
 let g:terminal_color_foreground = '#c1c9d4'
-let g:terminal_color_background = '#2b3240'
-let g:terminal_color_0          = '#2b3240'
+let g:terminal_color_background = '#131f37'
+let g:terminal_color_0          = '#131f37'
 let g:terminal_color_1          = '#bc284f'
 let g:terminal_color_2          = '#88b4ad'
 let g:terminal_color_3          = '#ffffff'
